@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto;
+}
+
+#header {
+  background-image: url("8thgradetrees.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.6;
+  text-align: center;
+}
+
+#header h1 {
+  font-size: 50px;
+  font-family: "Pacifico", cursive;
+  color: #17202a;
+}
+
+#header p {
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: bold;
+  color: #17202a;
+}
+
+#header .button {
+  padding: 15px 20px;
+  border: black solid 2px;
+  margin-top: 15px;
+  border-radius: 10px;
+  color: antiquewhite;
+  text-decoration: none;
+  font-size: 18px;
+  transition: font-size 400ms;
+}
+
+#header .button:hover {
+  background-color: antiquewhite;
+  color: black;
+  font-size: 20px;
+}
+
+.one {
+  padding: 40px;
+  text-align: center;
+  background-color: #484f4f;
+  color: antiquewhite;
+}
+
+.two {
+  padding: 40px;
+  text-align: center;
+  background-color: #b1cbbb;
+}
+
+.three {
+  height: 70vh;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fish-1 {
+  width: 350px;
+  height: 360px;
+  border: solid black 2px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #484f4f;
+  color: antiquewhite;
+  order: 2;
+}
+
+.fish-2 {
+  width: 350px;
+  height: 360px;
+  border: solid black 2px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: antiquewhite;
+  order: 1;
+}
+
+.fish-3 {
+  width: 350px;
+  height: 360px;
+  border: solid black 2px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #b1cbbb;
+}
